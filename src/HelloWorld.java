@@ -4,5 +4,7 @@ public class HelloWorld {
         int a = 3;
         int b = 5;
         System.out.println(a+b);
+        int c = 5;
+        System.out.println(c * b);
     }
 }

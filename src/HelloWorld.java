@@ -7,5 +7,6 @@ public class HelloWorld {
         int c = 5;
         System.out.println(c * b);
         System.out.println( c / b);
+        System.out.println("Lets close this");
     }
 }

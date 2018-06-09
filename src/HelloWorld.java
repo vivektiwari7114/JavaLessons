@@ -8,5 +8,8 @@ public class HelloWorld {
         System.out.println(c * b);
         System.out.println( c / b);
         System.out.println("Lets close this");
+
+        //Lets talk about this Scene 2
+        
     }
 }

@@ -9,4 +9,10 @@ public class HelloWorld {
         return a + b;
     }
     public int multiply(int a, int b) {return a*b; }
+    public double divide(int divident, int divisor) {
+        if ( divisor == 0) {
+            return 0.0d;
+        }
+        return divident / divisor;
+    }
 }

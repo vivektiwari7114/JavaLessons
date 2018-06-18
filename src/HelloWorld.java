@@ -1,22 +1,10 @@
 public class HelloWorld {
     public static void main(String args[]) {
-        System.out.println("Hello World!!");
-        int a = 3;
-        int b = 5;
-        System.out.println(a+b);
-        int c = 5;
-        System.out.println(c * b);
-        System.out.println( c / b);
-        System.out.println("Lets close this");
-
-        //Lets talk about this Scene 2
-
-
-        //The commit 2
-
-        //This is commit 3
-
-
-        //This is part of my Work Branch
+        HelloWorld hw = new HelloWorld();
+        System.out.println(hw.add(5,6));
+    }
+    
+    public int add(int a, int b) {
+        return a + b;
     }
 }
